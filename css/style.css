@@ -1,0 +1,31 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.debug .row{
+    height: 250px;
+}
+
+.debug .row [class*="col-"]{
+    background-color: red;
+    border: 1px solid black;
+    height: 100%;
+}
+
+/* da cancellare */
+.green{
+    background-color: green;
+}
+
+.grey{
+    background-color: #ccc;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+/* da cancellare */
+
+
