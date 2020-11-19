@@ -1,37 +1,44 @@
+h2{
+  font-size: 35px;
+}
+
+h3{
+  padding: 25px;
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.debug .row{
-    height: 250px;
-}
-
-.debug .row [class*="col-"]{
-    background-color: red;
-    border: 1px solid black;
-    height: 100%;
-}
-
-/* da cancellare */
-.green{
-    background-color: green;
-}
-
-.grey{
-    background-color: #ccc;
-}
-
-.yellow{
-    background-color: yellow;
-}
-
-/* da cancellare */
-
-section .padding{
-  padding: 50px 0;
+.padding-tex{
+  padding: 0 11px;
 }
 
 .height-img{
-  max-height:200px;
+  max-height:220px;
+}
+
+
+.height-how-img{
+  min-height: 200px;
+}
+
+.row p {
+  font-size: 14px;
+  margin-bottom:10px;
+}
+
+.row .border-radius{
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #428bca;
+}
+
+.padding-cademi{
+  padding-top: 100px;
+}
+
+.width-30{
+  max-width: 30%;
 }
